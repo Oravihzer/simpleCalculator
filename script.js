@@ -14,5 +14,7 @@ function simpleCalculator() {
   if (confirm("multiply?")) console.log(x * y), alert(x * y);
   else if (confirm("add numbers?")) console.log(x + y), alert(x + y);
   else if (confirm("minus numbers?")) console.log(x - y), alert(x - y);
+  else if (confirm("Modolu numbers?")) console.log(x % y), alert(x % y);
+  else if (confirm("Division numbers?")) console.log(x / y), alert(x / y);
 }
 d;
